@@ -40,7 +40,7 @@ function education() {
             </li>
             <li className="school">Sunbeam School Varuna
             <ul>
-                <li>CGPA of 10.0 in High School</li>
+                <li>CGPA of 10.00 in High School</li>
             </ul>
             </li>
         </ol>
