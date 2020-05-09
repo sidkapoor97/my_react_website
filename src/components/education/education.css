@@ -1,0 +1,36 @@
+.education_app {
+    margin-top: 500px;
+
+}
+.edu_heading {
+    margin-top: 5px;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.edu_list {
+margin-left: 450px;
+}
+li {
+    margin: 10px 0;
+}
+
+.img_woman {
+    position: absolute;
+    width: 25%;
+    margin-top: -500px;
+    margin-left: -400px;
+}
+
+.img_router {
+    width: 30%;
+    margin-top: -920px;
+    margin-left: 550px;
+}
+
+.img_hard_drive{
+    position: absolute;
+    width: 10%;
+    margin-top: 100px;
+    margin-left: 1150px;
+}

@@ -1,0 +1,21 @@
+* {
+    color: black;
+}
+
+
+.edu_heading {
+    margin-top: -30px;
+}
+
+.project_item {
+    margin-top: -2px;
+}
+.description {
+    margin-top: -20px;
+}
+
+.project_log_img {
+    width: 20%;
+    margin-left: 1000px;
+    margin-top: -200px;
+}

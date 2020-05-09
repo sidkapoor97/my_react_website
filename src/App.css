@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgba(145, 145, 145, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my_pic {
+border-radius: 100px;
+border: solid 3px black;
+margin-left: 300px;
+margin-top: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.intro-heading {
+  margin-top: -250px;
+  margin-left: 600px;
+}
+
+.introduction {
+  margin-left: 600px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+
+.doing-heading {
+  margin-top: 0px;
+  margin-left: 600px;
+}
+
+.doing {
+  margin-left: 600px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+
+.github-icon {
+  width: 4%;
+  background: transparent;
+  border-radius: 100px;
+  margin-left: 650px;
+  margin-top: 10px;
+}
+
+.linkedin-icon {
+  width: 4%;
+  background: transparent;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.free-code-camp-icon {
+  width: 5%;
+  background: transparent;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.mail-icon {
+  width: 4%;
+  background: transparent;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.edu_sec{
+  background-color: white;
+  margin-top: -300px;
+}
+
+
+.skill_sec{
+  background-color: white;
+}
+
+.intern_sec{
+  background-color: white;
+}
+
+.resume-link {
+  margin-left: 375px;
+  display: inline;
+  font-size: x-large;
+  padding: 5px 5px;
+  border-radius: 10%;
+  margin-top: -50px;
+  position: absolute;
+}
+
+.resume-link:hover {
+  background-color: rgb(200, 200, 200);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
