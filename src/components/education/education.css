@@ -6,13 +6,13 @@
     margin-top: 5px;
     text-align: center;
     font-size: x-large;
-    text-decoration: strikethrough;
+    text-decoration: underline;
 }
 .edu_list {
 margin-left: 450px;
 }
 li {
-    margin: 5px 0;
+    margin: 2px 0;
 }
 
 .img_woman {
