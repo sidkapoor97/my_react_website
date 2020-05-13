@@ -44,6 +44,10 @@ li {
     margin-right: 10px;
 }
 
+.about-samsung {
+    width: 30%;
+}
+
 @media screen and (max-width: 992px) {
     body {
        min-width:920px; 
@@ -68,16 +72,15 @@ li {
         font-size: small;
     }
 .samsung-logo{
-    margin-left: 30%;
-    width: 15%;
-    float: left;
+   display: none;
 }
 
 .iit-logo{
     width: 5%;
-    margin-left: 35%;
+    margin-left: 30%;
     float: left;
     margin-top: -20%;
+    overflow: hidden;
 }
 .paper{
     width: 40%;

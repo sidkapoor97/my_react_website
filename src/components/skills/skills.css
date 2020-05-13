@@ -1,4 +1,5 @@
-li{
+
+  li{
     margin: 30px 0;
   }
 
@@ -7,6 +8,7 @@ li{
       text-decoration: underline;
       margin-top: -2%;
       font-size: x-large;
+      overflow: hidden;
   }
 
   .list_item {
@@ -18,6 +20,7 @@ li{
     margin-left: 35%;
     width: 10%;
     margin-top: -8%;
+    overflow: hidden;
   }
 
   .ecell-logo {
@@ -26,7 +29,8 @@ li{
     border-radius: 25%;
     margin-top: -45%;
     border-image: url('./ecell_logo.jpg') 20%;
-    border: 2px solid black;    
+    border: 2px solid black; 
+    overflow: hidden; 
   }
 
   .svco{
@@ -35,6 +39,7 @@ li{
       border-radius: 10%;
       margin-left: 25%;
       margin-top: -30%;
+      overflow: hidden;
   }
 
   .svco-logo{
@@ -71,6 +76,7 @@ li{
   .svco{
     margin-left: 80%;
     margin-top: -40%;
+    overflow: hidden;
   }
 
   .space-logo{
@@ -96,4 +102,9 @@ li{
   .iste-logo, .svco-logo, .space-logo, .ecell-logo{
     display: none;
   }
+
+  .list_item {
+    width: 40%;
+  }
+
 }

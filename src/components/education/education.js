@@ -22,7 +22,7 @@ function education() {
                 <li>AIR in JEE Mains: 2141</li>
                 <li>CGPA : 8.53 (till 7th semester)</li>
                 <li>Course Undertaken: 
-                    <ol>
+                    <ol className="courses-list">
                         <li className="courses">Digital Signal Processing</li>
                         <li className="courses">Linear Signals and Systems</li>
                         <li className="courses">Image Processing and Computer Vision</li>

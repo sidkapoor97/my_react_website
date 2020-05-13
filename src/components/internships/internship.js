@@ -15,8 +15,8 @@ function internships() {
     <br />
     <ul className="intern_list">
         <li className="samsung"><span className="title">Assistant Systems Intern</span>
-        <br /> 12th May 2019 – 12th July 2019 <br />
-        Samsung Semiconducor Institute of Research, Bangalore  </li>
+        <br /> <div className="about-samsung">12th May 2019 – 12th July 2019
+        Samsung Semiconducor Institute of Research, Bangalore</div>  </li>
         <img src={samsung_research} alt="" className="samsung-logo" />
         <br/>
 
