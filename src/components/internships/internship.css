@@ -41,3 +41,18 @@
     margin-top: -250px;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+       min-width:920px; 
+        }
+
+    .title {
+        font-size: large;
+    }
+    
+    .intern_list {
+        font-size: small;
+    }
+    }
+
