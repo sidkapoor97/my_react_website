@@ -44,3 +44,26 @@
     border: 3px solid black;
   }
 
+  @media screen and (max-width: 992px) {
+    body {
+       min-width:920px; 
+    }
+
+    .navbar-spacer {
+      font-size: 0.9rem;
+    }
+
+    .img-fluid{
+      display: none;
+    }
+
+    .nav-items {
+      float: left;
+    }
+
+      
+  .nav-items .nav-link {
+  padding: 10px 45px;
+  }
+  }  
+
