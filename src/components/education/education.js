@@ -14,6 +14,7 @@ function education() {
     </div>
     <div><br /></div>
     <div className="edu_heading"><h1>Education</h1></div>
+
     <div className="edu_list">
         <ol className="edu_list_ul">
             <li className="college">National Institute Of Technology Karnataka

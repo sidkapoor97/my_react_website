@@ -13,28 +13,29 @@ body {
 .my_pic {
 border-radius: 100px;
 border: solid 3px black;
-margin-left: 300px;
-margin-top: 70px;
+margin-left: 22%;
+margin-top: 7%;
+width: 18%;
 }
 
 .intro-heading {
-  margin-top: -250px;
-  margin-left: 600px;
+  margin-top: -20%;
+  margin-left: 45%;
 }
 
 .introduction {
-  margin-left: 600px;
+  margin-left: 45%;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
 }
 
 .doing-heading {
-  margin-top: 0px;
-  margin-left: 600px;
+  margin-top: 0%;
+  margin-left: 45%;
 }
 
 .doing {
-  margin-left: 600px;
+  margin-left: 45%;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
 }
@@ -43,7 +44,7 @@ margin-top: 70px;
   width: 4%;
   background: transparent;
   border-radius: 100px;
-  margin-left: 650px;
+  margin-left: 52%;
   margin-top: 10px;
 }
 
@@ -51,23 +52,23 @@ margin-top: 70px;
   width: 4%;
   background: transparent;
   border-radius: 10px;
-  margin-left: 60px;
-  margin-top: 10px;
+  margin-left: 5%;
+  margin-top: 1%;
 }
 
 .free-code-camp-icon {
   width: 5%;
   background: transparent;
   border-radius: 10px;
-  margin-left: 60px;
-  margin-top: 10px;
+  margin-left: 5%;
+  margin-top: 1%;
 }
 
 .mail-icon {
   width: 4%;
   background: transparent;
-  margin-left: 60px;
-  margin-top: 10px;
+  margin-left: 5%;
+  margin-top: 1%;
 }
 
 .edu_sec{
@@ -85,13 +86,11 @@ margin-top: 70px;
 }
 
 .resume-link {
-  margin-left: 375px;
+  margin-left: 28%;
   display: inline;
   font-size: x-large;
   padding: 5px 5px;
   border-radius: 10%;
-  margin-top: -50px;
-  position: absolute;
 }
 
 .resume-link:hover {

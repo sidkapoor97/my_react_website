@@ -9,15 +9,15 @@ function projects() {
     <div className="edu_heading"><h1>Projects</h1></div>
 
     <ul>
-      <h2>Ongoing</h2>
+      <h2 class="status">Ongoing</h2>
       <ol>
-        <li className="project_left"><h3><a href="/" alt="">Customer Profiling and Language Detection Using Real-Time Call Center Speech Data</a></h3></li>
+        <li className="project_item"><h3><a href="/" alt="">Customer Profiling and Language Detection Using Real-Time Call Center Speech Data</a></h3></li>
         <h4 className="under">December 2019 – August 2020 | Under Dr. Deepu Vijayasenan Department of Electronics and Communication, NITK</h4>
         {/* <p className="description">We aim to predict age, gender and language of a customer given an audio recording between a call center 
         agent and the customer. We do this by extracting MFCC features, VAD and then training a SVR and DNN using these features. 
         We feed First Order Statistics calculated from a GMM-UBM to the SVR/DNN Model.</p> */}
       </ol>
-      <h2>Completed</h2>
+      <h2 class="status">Completed</h2>
 
       <ol>
       <li className="project_item"><h3><a href="/" alt="">Multi Standby Multi Sim Allocation Pattern</a></h3></li>

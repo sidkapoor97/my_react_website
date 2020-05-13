@@ -1,8 +1,6 @@
 * {
     color: black;
 }
-
-
 .edu_heading {
     margin-top: -30px;
 }
@@ -18,4 +16,32 @@
     width: 20%;
     margin-left: 1000px;
     margin-top: -200px;
+}
+
+li a:hover{
+    border: 0px solid white; 
+}
+
+@media screen and (max-width: 992px) {
+    body {
+       min-width:920px; 
+    } 
+    .edu_heading {
+        font-size: large;
+    }
+
+    .project_item{
+        font-size: small;
+    }
+    .status{
+        font-size: medium;
+    }
+
+    h4{
+        font-size: smaller;
+    }
+
+
+
+
 }
