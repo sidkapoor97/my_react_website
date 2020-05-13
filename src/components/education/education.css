@@ -62,3 +62,22 @@ li {
         margin-left: 60%;
     }
 }
+
+/* MOBILE SCREEN */
+@media only screen and (max-width: 600px) { 
+    .img_woman{
+        display: none;
+    }
+    .edu_list {
+        margin-left: 1%;
+        font-size: smaller;
+        }
+    
+    .img_router{
+        display: none;
+    }
+    .edu_heading{
+        font-size: small;
+        margin-left: -55%;
+    }
+}

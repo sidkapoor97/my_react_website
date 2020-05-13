@@ -100,7 +100,6 @@ width: 18%;
 
 @media screen and (max-width: 992px) {
   body {
-    background-color: lightblue;
      min-width:992px; 
   }
 
@@ -141,6 +140,54 @@ width: 18%;
       margin-left: 55%;
       margin-top: 20px;
     }
-   
-    
+}
+
+/* MOBILE SCREEN */
+@media only screen and (max-width: 600px) {
+
+  .my_pic{
+    margin-left: 12.5%;
+    width: 15%;
+    margin-top: 2%;
+  }
+
+  .intro-heading {
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: small;
+  }
+
+  .introduction {
+    margin-left: 5%;
+    font-size: smaller;
+    width: 35%;
+    text-align: center;
+  }
+
+  .doing-heading {
+    margin-left: 15%;
+    text-decoration: underline;
+    font-size: small;
+  }
+  
+  .doing {
+    margin-left: 5%;
+    font-size: smaller;
+    width: 35%;
+    text-align: center;
+  }
+
+  .github-icon{
+    margin-left: 10%;
+    width: 3%;
+  }
+
+  .linkedin-icon, .free-code-camp-icon, .mail-icon{
+    width: 3%;
+  }
+
+  .resume-link{
+    margin-left: 20%;
+  }
+
 }

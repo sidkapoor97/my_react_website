@@ -5,7 +5,9 @@
 li {
     margin: 1% 0;
 }
-
+.paper{
+    width: 50%;
+}
 .samsung-logo {
     float: right;
     margin-right: 10%;
@@ -54,4 +56,44 @@ li {
     .intern_list {
         font-size: small;
     }
+}
+
+/* MOBILE SCREEN */
+@media only screen and (max-width: 600px) { 
+    .title {
+        font-size: small;
     }
+
+    li {
+        font-size: small;
+    }
+.samsung-logo{
+    margin-left: 30%;
+    width: 15%;
+    float: left;
+}
+
+.iit-logo{
+    width: 5%;
+    margin-left: 35%;
+    float: left;
+    margin-top: -20%;
+}
+.paper{
+    width: 40%;
+}
+
+.intern-logo{
+    display: none;
+}
+
+.wwf-logo{
+    width: 3%;
+    margin-left: 20%;
+    float: left;
+}
+
+.changepay-logo{
+    display: none;
+}
+}

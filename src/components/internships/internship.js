@@ -23,13 +23,9 @@ function internships() {
         <li className="iit"><span className="title">Research Intern</span>
         <br />May 2018 – July 2018
         <br />Real Time Signal Processing Lab, IIT Kharagpur </li>
-        <a href="https://www.researchgate.net/publication/337856759_Jointly_Learning_Convolutional_Representations_to_Compress_Radiological_Images_and_Classify_Thoracic_Diseases_in_the_Compressed_Domain" className="paper-link" alt="">
-        Jointly Learning Convolutional Representations to Compress
-        <br /> Radiological Images and Classify Thoracic Diseases in the
-        <br /> Compressed Domain
-        <br/>
-        <br/>
-        </a>
+        <div className="paper"><a href="https://www.researchgate.net/publication/337856759_Jointly_Learning_Convolutional_Representations_to_Compress_Radiological_Images_and_Classify_Thoracic_Diseases_in_the_Compressed_Domain" className="paper-link" alt="">
+        Jointly Learning Convolutional Representations to Compress Radiological Images and Classify Thoracic Diseases in the Compressed Domain
+        </a></div>
         <img src={iit_logo} alt="" className="iit-logo" />
         
         <li className="wwf"><span className="title">Data Intern</span><br />

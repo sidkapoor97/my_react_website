@@ -61,6 +61,7 @@ li{
   .iste-logo{
     margin-left: 80%;
     width: 8%;
+    margin-top: -10%;
   }
 
   .ecell-logo{
@@ -76,4 +77,23 @@ li{
     margin-left: 80%;
     margin-top: 10%;
   }
+
+  .skill_heading{
+    font-size: large;
   }
+
+  .list_item{
+    font-size: small;
+  }
+  }
+
+  /* MOBILE SCREEN */
+@media only screen and (max-width: 600px) { 
+  .skill_heading{
+    margin-left: 5%;
+  }
+
+  .iste-logo, .svco-logo, .space-logo, .ecell-logo{
+    display: none;
+  }
+}

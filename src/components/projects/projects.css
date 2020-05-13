@@ -29,19 +29,38 @@ li a:hover{
     .edu_heading {
         font-size: large;
     }
-
     .project_item{
         font-size: small;
     }
     .status{
         font-size: medium;
     }
-
     h4{
         font-size: smaller;
     }
+    .project_log_img{
+        margin-left: 80%;
+    }
 
+}
 
+/* MOBILE SCREEN */
+@media only screen and (max-width: 600px) { 
+    .status{
+        font-size: small;
+    }
+    h4{
+        font-size: small;
+    }
+    .project_log_img{
+        display: none;
+    }
+    .project_item{
+        width: 40%;
+    }
 
+    .under{
+        width: 40%;
+    }
 
 }
