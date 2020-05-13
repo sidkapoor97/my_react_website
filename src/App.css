@@ -98,3 +98,50 @@ margin-top: 70px;
   background-color: rgb(200, 200, 200);
   color: white;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: lightblue;
+     min-width:992px; 
+  }
+
+  .my_pic {
+    margin-left: 1%;
+    margin-top: 7%;
+    }
+
+    .intro-heading {
+      margin-left: 25%;
+      text-decoration: underline;
+      font-size: .9rem;
+    }
+
+    .introduction {
+      margin-left: 25%;
+      font-size: 0.9rem;
+    }
+
+    .doing-heading {
+      margin-left: 25%;
+      text-decoration: underline;
+      font-size: .9rem;
+    }
+    
+    .doing {
+      margin-left: 25%;
+      font-size: 0.9rem;
+    }
+
+    .resume-link {
+      margin-left: 5%;
+      display: inline;
+      font-size: large;
+    }
+
+    .github-icon {
+      margin-left: 55%;
+      margin-top: 20px;
+    }
+   
+    
+}
