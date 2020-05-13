@@ -7,11 +7,11 @@ import linked_in from './components/homepage_icons/logo-linkedin.jpg'
 import free_code from './components/homepage_icons/free_code_camp.png'
 import mail from './components/homepage_icons/mail-sharp.png'
 
-// import Hobby from './components/hobbies/hobby'
 import Education from './components/education/education'
 import Project from './components/projects/projects'
 import Skills from './components/skills/skills'
 import Internship from './components/internships/internship'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
       <a href="mailto:siddharthakapoor2@gmail.com" target="_blank" rel="noopener noreferrer"><img src={mail} alt= "" className="mail-icon"/></a>
     </div>
 
-    <div className="resume-link"><a href="https://drive.google.com/open?id=1mFgsNaf_oNkw3Nyz88PTXSPox6jaV_wg" alt="" target="_blank">Resume</a></div>
+    <div className="resume-link"><a  rel="noopener noreferrer" href="https://drive.google.com/open?id=1mFgsNaf_oNkw3Nyz88PTXSPox6jaV_wg" alt="" target="_blank">Resume</a></div>
     </div>
     
     </section>
@@ -63,6 +63,13 @@ function App() {
     <section id="skills" className="skills_sec" >
     <Skills />
     </section>
+
+    {/* curriculars */}
+    <section id="footer_" className="footer_sec" >
+    <Footer />
+    <Navbar />
+    </section>
+
     </div>
   );
 }

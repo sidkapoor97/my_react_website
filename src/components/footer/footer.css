@@ -1,0 +1,15 @@
+.footer-app{
+    margin-top: 15%;
+}
+.contact-me {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+.footer-app{
+    margin-top: 40%;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+}

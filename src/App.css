@@ -98,6 +98,10 @@ width: 18%;
   color: white;
 }
 
+.footer_sec{
+  background-color: white;
+}
+
 @media screen and (max-width: 992px) {
   body {
      min-width:992px; 
